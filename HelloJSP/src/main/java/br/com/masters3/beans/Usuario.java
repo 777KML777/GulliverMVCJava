@@ -8,6 +8,7 @@ public class Usuario {
     private int id; 
     private String nome; 
     private String email; 
+    private String senha;
     private String cpf; 
     private String telefone; 
     private LocalDate dtNascimento; 
@@ -44,8 +45,16 @@ public class Usuario {
     public String getEmail() {
         return email;
     }
+    
+    public String getSenha() {
+    	return senha;
+    }
     public void setEmail(String email) {
         this.email = email;
+    }
+    
+    public void setSenha(String senha) {
+    	this.senha = senha;
     }
     public String getCpf() {
         return cpf;
